@@ -31,14 +31,19 @@
 *.out
 *.app
 
+# CMake build directories
 build/*
-
-# CMake files
-CMakeFiles/
 .cache/
+
+# CMake files in build directory
+CMakeFiles/
 cmake_install.cmake
 CMakeCache.txt
 CTestTestfile.cmake
 perf-expr-tests*
 Makefile
 _deps
+bin/
+
+# CMake Debugging files
+trace.txt
