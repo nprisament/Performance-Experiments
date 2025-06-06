@@ -1,10 +1,9 @@
 #include <benchmark/benchmark.h>
 #include <cstddef>
 
-#include "../lib/memset.hpp"
+#include "../../lib/memset.hpp"
 
 static constexpr size_t kSize = 32 * 1024; // 32 KiB
-static constexpr int kIterations = 1;
 
 static void BM_Malloc(benchmark::State& state) {
   void * ptr;

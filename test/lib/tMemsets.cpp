@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 #include <sys/types.h>
 
-#include "../lib/memset.hpp"
+#include "../../lib/memset.hpp"
 
 class MemsetTest : public ::testing::Test {
   void TearDown() override {

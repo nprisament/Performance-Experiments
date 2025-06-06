@@ -1,7 +1,7 @@
 #include <benchmark/benchmark.h>
 #include <cstddef>
 
-#include "../lib/memset.hpp"
+#include "../../lib/memset.hpp"
 
 static constexpr int multiplier = 4;
 static constexpr int64_t start = 1<<7, limit = 1<<20;
