@@ -403,9 +403,9 @@ This project uses a dual licensing approach:
 
 ### Project Attribution
 
-This project is a fork of the MLIR Expt Template originally created by Jean-Michel Gorius.
+This project is a fork of the MLIR Standalone Template originally created by Jean-Michel Gorius.
 
-**Original Project**: [jmgorius/mlir-Expt-template](https://github.com/jmgorius/mlir-Expt-template)  
+**Original Project**: [jmgorius/mlir-Expt-template](https://github.com/jmgorius/mlir-standalone-template)  
 **Original Author**: Jean-Michel Gorius  
 **Original License**: Apache License v2.0 with LLVM Exceptions  
 **Original Copyright**: 2020-2023 Jean-Michel Gorius
