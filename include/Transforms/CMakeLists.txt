@@ -1,0 +1,7 @@
+set(LLVM_TARGET_DEFINITIONS Passes.td)
+mlir_tablegen(Passes.h.inc -gen-pass-decls -name ExptTransforms)
+# mlir_tablegen(Passes.capi.h.inc -gen-pass-capi-header --prefix GPU)
+# mlir_tablegen(Passes.capi.cpp.inc -gen-pass-capi-impl --prefix GPU)
+add_public_tablegen_target(ExptTransformsPassesIncGen)
+add_dependencies(mlir-headers ExptTransformsPassesIncGen)
+add_mlir_doc(Passes ExptTransformsPasses Transforms/ -gen-pass-doc)
