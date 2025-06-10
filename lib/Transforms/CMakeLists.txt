@@ -12,6 +12,5 @@ add_mlir_dialect_library(ExptTransforms
   MLIRIR
   MLIRPass
   MLIRTransforms
-  MLIRExpt
-  )
+)
 

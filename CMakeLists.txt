@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13.4)
 
-project(Expt-dialect LANGUAGES CXX C)
+project(performance-experiments LANGUAGES CXX C)
 
 find_program(LLD_PATH NAMES lld)
 

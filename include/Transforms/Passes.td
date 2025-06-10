@@ -24,7 +24,6 @@ def ExptDummyPass : Pass<"Expt-dummy-pass", "mlir::func::FuncOp"> {
     Option<"optionName", "option-name", "uint64_t", /*default=*/"512",
            "Set the option for in KiB (default: 512)">,
   ];
-  let dependentDialects = ["ExptDialect"];
 }
 
 

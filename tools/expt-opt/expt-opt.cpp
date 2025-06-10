@@ -13,16 +13,13 @@
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/ToolOutputFile.h"
 
-#include "Dialect/ExptDialect.h"
-#include "Dialect/ExptOpsDialect.cpp.inc"
-
 int main(int argc, char **argv) {
   mlir::registerAllPasses();
   // TODO: Register Expt passes here.
 
   mlir::DialectRegistry registry;
   registerAllDialects(registry);
-  registry.insert<mlir::Expt::ExptDialect>();
+  // registry.insert<mlir::Expt::ExptDialect>();
 
   return mlir::asMainReturnCode(
       mlir::MlirOptMain(argc, argv, "Expt optimizer driver\n", registry));

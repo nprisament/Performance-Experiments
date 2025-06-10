@@ -8,8 +8,6 @@
 #include "mlir/Support/LLVM.h"
 #include "mlir/Transforms/DialectConversion.h"
 
-#include "Dialect/ExptDialect.h"
-
 namespace mlir {
 namespace Expt {
 
